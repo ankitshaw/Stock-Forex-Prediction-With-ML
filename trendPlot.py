@@ -21,7 +21,6 @@ def graph():
 		ax.plot(date,bid)
 		ax.plot(date,ask)
 		
-
 		ax.xaxis.set_major_formatter(mdates.DateFormatter('%Y-%m-%d %H:%M:%S'))
 
 		plt.grid(True)
